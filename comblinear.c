@@ -7,7 +7,16 @@ void mdcquoc(int numA, int numB);
 
 int main(void)
 {
-    mdcquoc(213, 117);
+    int numA, numB;
+    scanf("%d %d", &numA, &numB);
+    if(numA > numB)
+    {    
+        mdcquoc(numA, numB);
+    }
+    else
+    {
+        mdcquoc(numB, numA);
+    }
 }
 
 void mdcquoc(int numA, int numB)
