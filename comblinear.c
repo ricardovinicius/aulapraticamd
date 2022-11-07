@@ -61,6 +61,7 @@ int find_s(int arrayofquoc[], int quocCounter)
         //printf("%d\n", s);
         i++;
     }
+    
 
     if(quocCounter % 2 == 0)
     {
